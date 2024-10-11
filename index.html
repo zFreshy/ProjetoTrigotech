@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação de Ângulos e Radianos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1, h3 {
+            text-align: center;
+        }
+        #explanation-container {
+            width: 60%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        #clock-container {
+            width: 400px;
+            margin: 20px auto;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        canvas {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Ferramenta Didática: Ângulos e Radianos</h1>
+
+        <!-- Explicação sobre Ângulos e Radianos -->
+        <div id="explanation-container">
+            <h3>O que são Ângulos e Radianos?</h3>
+            <p>
+                Ângulos são uma medida da rotação entre duas retas que se encontram em um ponto, geralmente medidos em graus (°) ou radianos (rad).
+                <br><br>
+                <b>Graus</b>: Uma volta completa em torno de um ponto equivale a 360°. Um ângulo reto tem 90°.
+                <br><br>
+                <b>Radianos</b>: Um radiano é o ângulo formado quando o comprimento do arco de um círculo é igual ao raio. Uma volta completa em torno de um círculo é \(2π\) radianos.
+            </p>
+            <p>
+                Em áreas como matemática e física, os radianos são preferidos, pois tornam cálculos relacionados a funções trigonométricas e movimento circular mais simples e precisos.
+            </p>
+        </div>
+
+        <!-- Relógio Angular Simulando Movimentos -->
+        <div id="clock-container">
+            <h3>Relógio Angular</h3>
+            <p>
+                Este relógio simula o movimento anti-horário de um ângulo ao longo de um círculo. Os valores do ângulo em graus e do radiano em termos de \( \pi \) são mostrados enquanto o ponteiro se move.
+            </p>
+            <div id="canvas-container"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script>
+        // Função para desenhar o relógio angular
+        function setup() {
+            let canvas = createCanvas(400, 400);
+            canvas.parent('canvas-container');
+        }
+
+        function draw() {
+            background(255);
+
+            // Desenhar círculo do relógio
+            translate(width / 2, height / 2);
+            stroke(0);
+            noFill();
+            ellipse(0, 0, 300, 300);  // Círculo
+
+            // Calcular o ângulo com base no frameCount
+            let angle = -frameCount * 0.01;  // Em radianos
+            let angleDegrees = degrees(-angle) % 360;  // Converter para graus e limitar de 0 a 360
+            let radianoEmPi = angle / PI * -1;  // Converter radianos para múltiplos de pi
+
+            // Desenhar ponteiro rotativo
+            let arrowBase = createVector(0, 0);
+            let arrowDir = p5.Vector.fromAngle(angle).mult(150);  // Movimento anti-horário
+            drawArrow(arrowBase, arrowDir, 'blue');
+
+            // Desenhar valor do ângulo e radiano no centro do relógio
+            noStroke();
+            fill(0);
+            textSize(20);
+            textAlign(CENTER, CENTER);
+            text(`${round(angleDegrees)}°`, 0, -20);  // Mostra o ângulo em graus
+            text(`${nfc(radianoEmPi, 2)}π rad`, 0, 20);  // Mostra o valor em pi rad
+
+            // Desenhar marcações do relógio
+            stroke(0);
+            strokeWeight(1);
+            for (let i = 0; i < 360; i += 30) {
+                let markAngle = radians(i);
+                let x1 = 150 * cos(markAngle);
+                let y1 = 150 * sin(markAngle);
+                let x2 = 160 * cos(markAngle);
+                let y2 = 160 * sin(markAngle);
+                line(x1, y1, x2, y2);
+            }
+        }
+
+        // Função para desenhar uma seta
+        function drawArrow(base, vec, myColor) {
+            push();
+            stroke(myColor);
+            strokeWeight(3);
+            fill(myColor);
+            translate(base.x, base.y);
+            line(0, 0, vec.x, vec.y);
+            rotate(vec.heading());
+            let arrowSize = 7;
+            translate(vec.mag() - arrowSize, 0);
+            triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0);
+            pop();
+        }
+    </script>
+</body>
+</html>
