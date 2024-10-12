@@ -100,7 +100,7 @@ Seção sobre as tecnologias usadas no projeto
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
-* * [![HTML][HTML.com]][JQuery-url]
+* [![HTML][HTML.com]]
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
