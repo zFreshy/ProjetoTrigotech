@@ -3,9 +3,9 @@
 
 <div align="center">
  
-  * [![BWL][BWL.com]][BWL-url] 
+  [![BWL][BWL.com]][BWL-url] 
  
-  * [![BBD][BBD.com]][BBD-url]
+  [![BBD][BBD.com]][BBD-url]
 </div>
 
 <!--
