@@ -55,7 +55,7 @@
   <summary>Tópicos</summary>
   <ol>
     <li><a href="#Descrição-📜">Descrição</a></li>
-    <li><a href="#Tecnologias">Tecnologias</a></li>
+    <li><a href="#Tecnologias☕️">Tecnologias</a></li>
     <li><a href="#Funcionalidades">Funcionalidades</a></li>
     <li><a href="#Membros">Membros</a></li>
   </ol>
@@ -104,7 +104,7 @@ A ferramenta didática serve para ensinar ao aluno um pouco mais do assunto abor
 
 
 
-# Tecnologias
+# Tecnologias☕️
 
 Seção sobre as tecnologias usadas no projeto
 
