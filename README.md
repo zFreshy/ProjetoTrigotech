@@ -34,7 +34,7 @@
     <br />
     <a href="https://github.com/zFreshy/ProjetoTrigotech"><strong>Veja os documentos »</strong></a>
     <br />
-    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Degree-Radian_Conversion_pt.png/315px-Degree-Radian_Conversion_pt.png" style="background-color: #fff;"></img>
+    <img align="center" src="https://www.centralexatas.com.br/img/matematica/geral/comparacao-grau-e-radiano.png"></img>
     <br />
   </p>
 </div>
