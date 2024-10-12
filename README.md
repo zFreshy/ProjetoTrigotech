@@ -182,7 +182,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 **Membros do grupo** que tornaram possível esse projeto.
 
 <a href="https://github.com/zFreshy/ProjetoTrigotech/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=zFreshy/ProjetoTrigotech" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
