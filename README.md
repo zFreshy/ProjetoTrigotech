@@ -105,6 +105,8 @@ Seção sobre as tecnologias usadas no projeto
 * [![CSS][CSS.com]][CSS-url]
 * [![JS][JS.com]][JS-url]
 * [![VS-CODE][VS-CODE.com]][VS-CODE-url]
+* [![BBD][BBD.com]][BBD-url]
+* [![BWL][BWL.com]][BWL-url]
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -277,4 +279,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [JS-url]: #
 [VS-CODE.com]: https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg
 [VS-CODE-url]: #
+[BWL.com]: http://ForTheBadge.com/images/badges/built-with-love.svg
+[BWL-url]: #
+[BBD.com]: http://ForTheBadge.com/images/badges/built-by-developers.svg
+[BBD-url]: #
 
