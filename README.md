@@ -34,6 +34,7 @@
     <br />
     <a href="https://github.com/zFreshy/ProjetoTrigotech"><strong>Veja os documentos »</strong></a>
     <br />
+    ![Trigonometry Interactive](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Degree-Radian_Conversion_pt.png/315px-Degree-Radian_Conversion_pt.png)
     <br />
   </p>
 </div>
