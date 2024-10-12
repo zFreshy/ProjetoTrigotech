@@ -54,7 +54,7 @@
 <details>
   <summary>Tópicos</summary>
   <ol>
-    <li><a href="#Descrição 📜">Descrição</a></li>
+    <li><a href="#Descrição-📜">Descrição</a></li>
     <li><a href="#Tecnologias">Tecnologias</a></li>
     <li><a href="#Funcionalidades">Funcionalidades</a></li>
     <li><a href="#Membros">Membros</a></li>
