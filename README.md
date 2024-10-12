@@ -100,7 +100,7 @@ Seção sobre as tecnologias usadas no projeto
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
-* [![HTML][HTML.com]]
+* [![HTML][HTML.com]][HTML-url]
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -275,4 +275,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [HTML.com]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: #
 
