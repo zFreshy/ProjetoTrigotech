@@ -54,7 +54,7 @@
 <details>
   <summary>Tópicos</summary>
   <ol>
-    <li><a href="#Descrição">Descrição</a></li>
+    <li><a href="#Descrição">Descrição-📜</a></li>
     <li><a href="#Tecnologias">Tecnologias</a></li>
     <li><a href="#Funcionalidades">Funcionalidades</a></li>
     <li><a href="#Membros">Membros</a></li>
@@ -87,7 +87,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Descrição 📜
+# Descrição 📜
 
 
 
@@ -175,7 +175,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Funcionalidades ✨
+# Funcionalidades ✨
 
 - [x] Calcula ângulos/radianos
 - [x] Ensina sobre ângulos e radianos
@@ -187,7 +187,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTRIBUTING -->
-## Membros ❤️
+# Membros ❤️
 
 **Membros do grupo** que tornaram possível esse projeto:
 
