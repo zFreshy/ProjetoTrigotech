@@ -167,15 +167,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Funcionalidades
 
-- [x] Add Changelog
-- [x] Add Voltar ao Topo links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+- [x] Calcula ângulos/radianos
+- [x] Ensina sobre ângulos e radianos
+- [x] Traz desafio prático sobre o tema
+- [ ] Faz um cafezinho no ponto
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
