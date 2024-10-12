@@ -104,7 +104,7 @@ A ferramenta didática serve para ensinar ao aluno um pouco mais do assunto abor
 
 
 
-# Tecnologias ☕️
+# Tecnologias
 
 Seção sobre as tecnologias usadas no projeto
 
