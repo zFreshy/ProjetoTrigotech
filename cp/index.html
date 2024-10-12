@@ -13,8 +13,13 @@
 		<link rel="stylesheet" href="explicacao.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-		<script src="script.js"></script>
+		<script src="script.js" defer></script>
 	</head>
+	<div id="invArea">
+		<p id="areaAtual">
+
+		</p>
+	</div>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -32,8 +37,8 @@
 						<ul>
 							<li><a href="#intro" class="active">Radianos e Ângulos</a></li>
 							<li><a href="#first">Ferramenta Didática</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#second">Desafio</a></li>
+							<!-- <li><a href="#cta">Get Started</a></li> -->
 						</ul>
 					</nav>
 
@@ -107,16 +112,20 @@
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
 									</li> -->
 								</ul>
-								<footer class="major">
+								<!-- <footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> -->
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
-								<header class="major">
+								<h1>Desafio: Ângulo e Radiano</h1>
+								<p>A seta aponta para um ângulo aleatório. Insira o valor correto do ângulo e do radiano.</p>
+								<div id="desafio"></div>
+								<p id="mensagemResultado"></p>
+								<!-- <header class="major">
 									<h2>Ipsum consequat</h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
 									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
@@ -148,11 +157,11 @@
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> -->
 							</section>
 
 						<!-- Get Started -->
-							<section id="cta" class="main special">
+							<!-- <section id="cta" class="main special">
 								<header class="major">
 									<h2>Congue imperdiet</h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
@@ -164,7 +173,7 @@
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
-							</section>
+							</section> -->
 
 					</div>
 
@@ -211,7 +220,6 @@
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.js"></script>
-			<script src="app.js"></script>
 			<script src="explicacao.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 

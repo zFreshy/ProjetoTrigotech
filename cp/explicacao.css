@@ -32,3 +32,8 @@ h1, h3 {
 /* canvas {
     border: 1px solid #ccc;
 } */
+
+#invArea {
+    display: none;
+    background: transparent;
+}
