@@ -103,6 +103,7 @@ Seção sobre as tecnologias usadas no projeto
 * [![HTML][HTML.com]][HTML-url]
 * [![CSS][CSS.com]][CSS-url]
 * [![JS][JS.com]][JS-url]
+* [![VS-CODE][VS-CODE.com]][VS-CODE-url]
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -282,4 +283,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [CSS-url]: #
 [JS.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [JS-url]: #
+[VS-CODE.com]: https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg
+[VS-CODE-url]: #
 
