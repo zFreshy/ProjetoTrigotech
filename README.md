@@ -1,5 +1,11 @@
 <!-- Improved compatibility of Voltar ao Topo link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
+
+<div align="center">
+  [![BWL][BWL.com]][BWL-url] 
+  [![BBD][BBD.com]][BBD-url]
+</div>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -105,8 +111,6 @@ Seção sobre as tecnologias usadas no projeto
 * [![CSS][CSS.com]][CSS-url]
 * [![JS][JS.com]][JS-url]
 * [![VS-CODE][VS-CODE.com]][VS-CODE-url]
-* [![BBD][BBD.com]][BBD-url]
-* [![BWL][BWL.com]][BWL-url]
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
