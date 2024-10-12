@@ -34,7 +34,7 @@
     <br />
     <a href="https://github.com/zFreshy/ProjetoTrigotech"><strong>Veja os documentos »</strong></a>
     <br />
-    <img url:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Degree-Radian_Conversion_pt.png/315px-Degree-Radian_Conversion_pt.png"></img>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Degree-Radian_Conversion_pt.png/315px-Degree-Radian_Conversion_pt.png"></img>
     <br />
   </p>
 </div>
