@@ -179,7 +179,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTRIBUTING -->
 ## Membros
 
-**Membros do grupo** que tornaram possível esse projeto.
+**Membros do grupo** que tornaram possível esse projeto:
+
+* Matheus Vinícius
+* Esther Laura
+* Igor Lucas
+* Lucas Ximenes
+* João Filipe
+
 
 <a href="https://github.com/zFreshy/ProjetoTrigotech/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zFreshy/ProjetoTrigotech" alt="contrib.rocks image" />
