@@ -88,9 +88,7 @@ O que o projeto tem:
 * Ferramenta Didática para compreensão do assunto
 * Pequeno desafio de descobrir o ângulo e o radiano na imagem :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+A ferramenta didática serve para ensinar ao aluno um pouco mais do assunto abordado no site, explicando a relação entre ângulos e radianos, e o desafio consiste em olhar uma imagem com uma seta no círculo e dizer qual o respectivo ângulo e radiano que está representado no círculo
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -98,14 +96,8 @@ Use the `BLANK_README.md` to get started.
 
 ### Tecnologias
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Seção sobre as tecnologias usadas no projeto
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
