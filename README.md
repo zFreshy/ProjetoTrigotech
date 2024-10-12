@@ -42,7 +42,14 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tópicos</summary>
+  <ol>
+    <li><a href="#Descrição">Usage</a></li>
+    <li><a href="#Tecnologias">Usage</a></li>
+    <li><a href="#Funcionalidades">Usage</a></li>
+    <li><a href="#Membros">Usage</a></li>
+  </ol>
+  <!--
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -64,12 +71,13 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
+  -->
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Descrição
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -88,7 +96,7 @@ Use the `BLANK_README.md` to get started.
 
 
 
-### Built With
+### Tecnologias
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -106,6 +114,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
+<!--
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -144,9 +153,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+-->
 
 <!-- USAGE EXAMPLES -->
+<!--
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -154,11 +164,12 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Funcionalidades
 
 - [x] Add Changelog
 - [x] Add back to top links
@@ -175,7 +186,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Membros
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -199,6 +210,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
+<!--
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -208,6 +220,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
+<!--
 ## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
@@ -219,6 +232,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 <!-- ACKNOWLEDGMENTS -->
+<!--
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
