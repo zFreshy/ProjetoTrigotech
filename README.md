@@ -27,7 +27,7 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
 
-  <h3 align="center">Projeto TrigoTech</h3>
+  <h3 align="center">PProjeto TrigoTech</h3>
 
   <p align="center">
     Projeto de matemática sobre trigonometria
