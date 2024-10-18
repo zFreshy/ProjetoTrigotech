@@ -325,6 +325,35 @@ if (areaAtual == "P1") {
       }
 }
 
+function checkAnswer() {
+    // Pegar valores do usuário
+    let userAngle = int(inputAngle.value());
+    let userRadian = float(inputRadian.value());
+    
+    // Converter o ângulo correto para radianos
+    let correctRadian = radians(angle);
+    
+    // Verificar se o ângulo e radiano estão corretos
+    let angleCorrect = (userAngle === angle);
+    let radianCorrect = (abs(userRadian - correctRadian) < 0.01); // Tolerância para radiano
+    let mensagemResultado = document.getElementById("mensagemResultado")
+
+    // Verificar respostas e atualizar a mensagem
+    if (angleCorrect && radianCorrect) {
+      resultMessage = "Correto! Ângulo e radiano estão certos!";
+      mensagemResultado.innerText = resultMessage
+    } else if (angleCorrect && !radianCorrect) {
+      resultMessage = `Ângulo correto! Mas o radiano correto é ${correctRadian.toFixed(2)} rad.`;
+      mensagemResultado.innerText = resultMessage
+    } else if (!angleCorrect && radianCorrect) {
+      resultMessage = `Radiano correto! Mas o ângulo correto é ${angle}°.`;
+      mensagemResultado.innerText = resultMessage
+    } else {
+      resultMessage = `Errado! O ângulo correto é ${angle}° e ${correctRadian.toFixed(2)} rad.`;
+      mensagemResultado.innerText = resultMessage
+    }
+  }
+
 
 
 
